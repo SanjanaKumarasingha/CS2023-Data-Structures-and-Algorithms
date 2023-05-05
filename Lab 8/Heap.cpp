@@ -32,7 +32,7 @@ void heapSort(int arr[], int n) {
  
    // Extracting elements from heap one by one
    for (int i = n - 1; i >= 0; i--) {
-      // Move current root to end
+      // Move current root (Maximum root) to end
       swap(arr[0], arr[i]);
  
       // call heapify on the reduced heap
